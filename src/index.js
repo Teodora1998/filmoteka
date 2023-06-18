@@ -1,9 +1,6 @@
-const renderPages = require('./JavaScript/body');
-const blabla = require('./JavaScript/number'); //doar numele functiei
-const filmId = require('./JavaScript/modal');
-const exemple = require('./JavaScript/example');
-const key = require('./JavaScript/key');
+const modal = require('../java/modal');
+const key = require('../java/key');
 
-blabla(); //se apeleaza functia
+modal(); //se apeleaza functia
 
 //renderPages(5);
